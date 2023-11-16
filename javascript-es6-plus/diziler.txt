@@ -1,0 +1,96 @@
+Console was cleared
+undefined
+var ogrenci1 = "Denizhan"
+undefined
+var ogrenci2 = "Deniz"
+undefined
+console.log(ogrenci1)
+console.log(ogrenci2)
+VM1134:1 Denizhan
+VM1134:2 Deniz
+undefined
+var numbers = [1,3,5,7,9,11}
+VM1213:1 Uncaught SyntaxError: Unexpected token '}'
+var numbers = [1,3,5,7,9,11]
+undefined
+numbers
+(6) [1, 3, 5, 7, 9, 11]0: 11: 32: 53: 74: 95: 11length: 6[[Prototype]]: Array(0)
+numers[0]
+VM1273:1 Uncaught ReferenceError: numers is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1273:1
+numbers[0]
+1
+numbers[1]
+3
+numbers[5]
+11
+numbers[6]
+undefined
+var sehirler = ["Ankara","İstanbul","İzmir"]
+undefined
+sehirler[1]
+'İstanbul'
+var dizi = ["Ankara",1,false]
+undefined
+dizi[0]
+'Ankara'
+dizi[1]
+1
+dizi[2]
+false
+var fonksiyonDizisi = []
+undefined
+var fonksiyonDizi = [
+    function selamVer(){console.log("Birinci fonksiyon çalıştı.")},
+    function selamVer2(){console.log("İkinci fonksiyon çalıştı."}
+    
+]
+VM1838:3 Uncaught SyntaxError: missing ) after argument list
+var fonksiyonDizi = [
+    function selamVer(){console.log("Birinci fonksiyon çalıştı.")},
+    function selamVer2(){console.log("İkinci fonksiyon çalıştı.")}
+    
+]
+undefined
+fonksiyonDizi
+(2) [ƒ, ƒ]0: ƒ selamVer()1: ƒ selamVer2()length: 2[[Prototype]]: Array(0)
+fonksiyonDizi[1]
+ƒ selamVer2(){console.log("İkinci fonksiyon çalıştı.")}
+fonksiyonDizi[1]()
+VM1847:3 İkinci fonksiyon çalıştı.
+undefined
+
+
+
+Dizi Fonksiyonlar : 
+Console was cleared
+undefined
+var sehirler = ["Ankara", "İstanbul", "İzmir", "Adan"]
+undefined
+seh
+VM2192:1 Uncaught ReferenceError: seh is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2192:1
+sehirler.pop() //son elemnı sil ve return yap
+'Adan'
+sehirler.shift() //diziyi sola kaydır ve ilk elemanı bana ver
+'Ankara'
+sehirler
+(2) ['İstanbul', 'İzmir']
+//ilk elemanı siler
+undefined
+sehirler.push("Bursa") //eleman ekle
+3
+sehirler
+(3) ['İstanbul', 'İzmir', 'Bursa']
+sehirler.concat(["Van","Muş"]) // diziye dizi ekle
+(5) ['İstanbul', 'İzmir', 'Bursa', 'Van', 'Muş']
+sehirler
+(3) ['İstanbul', 'İzmir', 'Bursa']
+sehirler.sort() // sıralama kücükten büyüğe
+(3) ['Bursa', 'İstanbul', 'İzmir']
+sehirler.len
+undefined
+sehirler.length //uzunluk
+3

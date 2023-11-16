@@ -1,0 +1,47 @@
+Kod çalıştırmak için CTRL-F5
+node dosya_adi.js
+
+
+Template literals : tek satırda yazmak
+""
+''
+``
+
+Short-Property-Names : Kısa yol obje anahtar isimleri
+Eğer bir objenin içindeki anahtarın değeri bir değişkenden geliyorsa, açıkça belirtmeye gerek yoktur.
+
+Arrow Functions : Oklu fonksiyon ifadeleri:
+Fonksiyon oluşturmanın yeni bir yöntemi
+Üstü kapalı ifadeler
+
+Object/Array Destructuring : obje ve dizilerin parçalarına bölünüp değişkenlere atanması
+
+Parameter Defaults : Varsayılan parametreler : bir fonksiyon içindir.
+
+Rest-Spread-Operator (toparlama,yayma): onject/array için 
+değişmezlik kuralı : tek tek değiştirilebilir,mutate ama react için değerleri değiştir ve yeni obje oluştur ve bu yeni objeyi önceki obje ile değiştir.
+
+Ternary : üç değişkenli koşul operatörleri
+kosul ? dogru : false;  if-else gibi, tek bir ifade için uygundur.
+null NANN, 0, "", (empty string),undefined
+
+Dizilerde find() some() every() :
+find : ilk bulduğu elemanda durur.
+some : bu koşulu sağlayan var ise true, yok ise false
+every : 
+JavaScript'te every() metodu, bir dizideki her öğenin belirli bir koşulu karşılayıp karşılamadığını kontrol etmek için kullanılır. Metod, bir dizi ve bir koşul alır. Metod, koşulun her öğe için doğru olup olmadığını kontrol eder ve dizideki tüm öğeler için koşul doğruysa true döndürür. Aksi takdirde, false döndürür.
+
+
+ES Modülleri :
+Modül sistemi ile kod blokları yeniden kullanılabilir, içer aktarma,dışa aktarma
+export ile dışa aktar
+import aktar
+as ise benzert
+bir dosyada yalnız bir default dışa aktarma yapılır.
+
+Dizi Fonksiyonlar :
+includes - içerip içermediği,harf duyarlılığı var
+toLowerCase - hepsini küçük yap
+
+Dizilerde Map :
+

@@ -1,0 +1,95 @@
+undefined
+    var egitmen = "Denizhan şahin"
+undefined
+if(egitmen == "Denizhan şahin"){alert("Eğitmen " + egitmen)}
+undefined
+var egitmen = "Denizhan şahin";
+undefined
+if(egitmen === "Denizhan şahin"){alert("Eğitmen "+ egitmen)}
+undefined
+if(egitmen === "Deniiiizhan şahin"){alert("Eğitmen "+ egitmen)}
+else{alert("bu kim?")}
+undefined
+if(egitmen == "Deniiiizhan şahin"){alert("Eğitmen "+ egitmen)}
+else{alert("bu kim?")}
+
+
+
+
+
+undefined
+var name = "Denizhan"
+if(name=="Deniz"){}
+undefined
+var name = "Denizhan"
+if(name=="Deniz"){
+    alert("Name = " +name);
+}else{
+    alert("Tanımıyorum");
+}
+undefined
+var name = "Denizhan"
+if(name=="Denizhan"){
+    alert("Name = " +name);
+}else{
+    alert("Tanımıyorum");
+}
+undefined
+var name = "Deniz"
+if(name=="Denizhan"){
+    alert("Name = " +name);
+}else if(name=="Deniz"{
+    alert("Name = "+name);
+}else{
+    alert("Tanımıyorum");
+}
+VM3491:4 Uncaught SyntaxError: Unexpected token '{'
+var name = "Deniz";
+if(name=="Denizhan"){
+    alert("Name = " +name);
+}else if(name=="Deniz"{
+    alert("Name = "+name);
+}else{
+    alert("Tanımıyorum");
+}
+VM3496:4 Uncaught SyntaxError: Unexpected token '{'
+var name = "Deniz";
+if(name=="Denizhan"){
+    alert("Name = " +name);
+}else if(name=="Deniz"){
+    alert("Name = "+name);
+}else{
+    alert("Tanımıyorum");
+}
+undefined
+var name = "Deniz";
+if(name=="Denizhan"){
+    alert("Name = " +name);
+}else if(name=="Deniz"){
+    alert("Name = "+name);
+}else{
+    alert("Tanımıyorum");
+}
+undefined
+var name = "Deniz";
+if(name=="Denizhan" || name=="Deniz"){
+    alert("Name = " +name);
+}
+}else{
+    alert("Tanımıyorum");
+}
+VM3540:5 Uncaught SyntaxError: Unexpected token '}'
+var name = "Deniz";
+if(name=="Denizhan" || name=="Deniz"){
+    alert("Name = " +name);
+}
+else{
+    alert("Tanımıyorum");
+}
+undefined
+var ad = "Deniz"
+var soyad = "Şahin"
+if(ad=="Deniz" && soyad == "Şahin"){
+    alert(ad + " " + soyad);
+}
+undefined

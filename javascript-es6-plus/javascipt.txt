@@ -1,0 +1,156 @@
+Console was cleared
+undefined
+5
+5
+5
+5
+print()
+undefined
+4+3
+7
+"Deniz"
+'Deniz'
+"Deniz"
+'Deniz'
+"Deniz" + "Deniz"
+'DenizDeniz'
+"Deniz" + " " + "Deniz"
+'Deniz Deniz'
+"Deniz Deniz"
+'Deniz Deniz'
+"Deniz\nDeniz"
+'Deniz\nDeniz'
+"Deniz\'in evi"
+"Deniz'in evi"
+10 + "20"
+'1020'
+"10" - 3
+7
+10 - "3"
+7
+"10" + 20
+'1020'
+10 + "deniz"
+'10deniz'
+10 -"deniz"
+NaN
+"deniz" - "deniz"
+NaN
+"10" - "10"
+0
+"10"+"10"
+'1010'
+true
+true
+false
+false
+3>4
+false
+3<4
+true
+3>=4
+false
+3<=4
+true
+3==4
+false
+3!=4
+true
+3=3
+VM1214:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+e=3
+3
+e
+3
+3=="3"
+true
+3==="3"
+false
+3!==3
+false
+3!=="3"
+true
+3!=="3"
+true
+3=="4"
+false
+3==="4"
+false
+3!==4
+true
+3!=="4"
+true
+var egitmen = "denizhan şahin"
+undefined
+egitmen
+'denizhan şahin'
+hid
+VM1514:1 Uncaught ReferenceError: hid is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1514:1
+history()
+VM1538:1 Uncaught TypeError: history is not a function
+    at <anonymous>:1:1
+(anonymous) @ VM1538:1
+his
+VM1554:1 Uncaught ReferenceError: his is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1554:1
+history
+History {length: 7, scrollRestoration: 'auto', state: null}length: 7scrollRestoration: "auto"state: null[[Prototype]]: Historyback: ƒ back()forward: ƒ forward()go: ƒ go()length: (...)pushState: ƒ pushState()replaceState: ƒ replaceState()scrollRestoration: (...)state: (...)constructor: ƒ History()Symbol(Symbol.toStringTag): "History"get length: ƒ length()get scrollRestoration: ƒ scrollRestoration()set scrollRestoration: ƒ scrollRestoration()get state: ƒ state()length: 0name: "get state"arguments: (...)caller: (...)[[Prototype]]: ƒ ()[[Scopes]]: Scopes[0][[Prototype]]: Object
+egitmen = egi
+VM1604:1 Uncaught ReferenceError: egi is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1604:1
+egitmen = egitmen + "bir eğitmendir"
+'denizhan şahinbir eğitmendir'
+var
+
+d = 3
+undefined
+d
+3
+egitmen = promt("eğitmen kim?")
+VM1801:1 Uncaught ReferenceError: promt is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1801:1
+egitmen = prompt("eğitmen kim?")
+'denizhan'
+egitmen = prompt("eğitmen kim?")
+'ben de bilmiyorum'
+egitmen
+'ben de bilmiyorum'
+var dogruMu = true
+undefined
+dogru
+VM1885:1 Uncaught ReferenceError: dogru is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1885:1
+dogruMu
+true
+var sayi1 = prompt("Sayi 1?")
+undefined
+sayi1
+'123'
+var sayi1 = prompt("Sayi 1?"); var sayi2 = prompt("sayi2 ?")
+undefined
+sayi1;
+'123'
+sayi2Ü
+VM2158:1 Uncaught ReferenceError: sayi2Ü is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2158:1
+sayi2;
+'1234'
+var toplam = sayi1 + sayi2
+undefined
+toplam
+'1231234'
+var toplam = Number(sayi1+sayi2)
+undefined
+toplam
+1231234
+var toplam = Number(sayi1) + Number(sayi2)
+undefined
+toplam
+1357

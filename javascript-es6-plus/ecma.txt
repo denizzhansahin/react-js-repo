@@ -1,0 +1,2 @@
+EcmaScript : 
+standart belirleme, belirlenmiş hali

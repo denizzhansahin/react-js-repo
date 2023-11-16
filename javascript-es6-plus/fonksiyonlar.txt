@@ -1,0 +1,110 @@
+undefined
+prompt()
+'denizhan'
+prompt("sayi2?")
+'deniz'
+prompt("sayi2?")
+'12'
+prompt("sayi2?")
+'12'
+alert("HATA")
+undefined
+console.log("Hello")
+VM4051:1 Hello
+undefined
+function selamVer(){
+    console.log("Merhaba")
+}
+undefined
+sel
+VM4142:1 Uncaught ReferenceError: sel is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM4142:1
+selamVer()
+VM4132:2 Merhaba
+undefined
+selamVer()
+VM4132:2 Merhaba
+undefined
+selamVer
+ƒ selamVer(){
+    console.log("Merhaba")
+}
+
+
+function selamVer(){
+    console.log("Merhaba")
+}
+undefined
+sel
+VM65:1 Uncaught ReferenceError: sel is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM65:1
+selamVer()
+VM55:2 Merhaba
+undefined
+var sonuc = selamVer()
+VM55:2 Merhaba
+undefined
+sonuc
+undefined
+sonuc()
+VM154:1 Uncaught TypeError: sonuc is not a function
+    at <anonymous>:1:1
+(anonymous) @ VM154:1
+function topla(a+b){
+    a+b
+}
+VM215:1 Uncaught SyntaxError: Unexpected token '+'
+topla()
+VM233:1 Uncaught ReferenceError: topla is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM233:1
+function topla(a,b){
+    a+b
+}
+undefined
+topla()
+undefined
+topla(2,3)
+undefined
+function topla(a,b){
+    alert(a+b)
+}
+undefined
+topla(2,3)
+undefined
+function topla(a,b){
+    return (a+b)
+}
+undefined
+var sonuc = topla(2,3)
+undefined
+sonuc
+5
+topla()
+NaN
+topla(2)
+NaN
+function topla(1,b){
+    console.log(a)
+}
+VM563:1 Uncaught SyntaxError: Unexpected number
+function topla(a,b){
+    console.log(a)
+    console.log(b)
+    return a+b
+}
+undefined
+topla(8)
+VM601:2 8
+VM601:3 undefined
+NaN
+topla(8,2)
+VM601:2 8
+VM601:3 2
+10
+topla(8,"b")
+VM601:2 8
+VM601:3 b
+'8b'

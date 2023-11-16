@@ -1,0 +1,68 @@
+avaScript'te değişken tanımlamak için kullanılan üç farklı anahtar kelime vardır: var, let ve const. Bu anahtar kelimeler, değişkenlerin kapsamı ve değiştirilebilirliği gibi bazı önemli farklılıklara sahiptir.
+
+var
+
+var, JavaScript'te en eski değişken tanımlama anahtar kelimesidir. var ile tanımlanan değişkenler, function scope özelliğine sahiptir. Bu, değişkenin tanımlandığı fonksiyonun içinde ve fonksiyonun çağrıldığı her yerde erişilebilir olduğu anlamına gelir. var ile tanımlanan değişkenlerin değerleri değiştirilebilirdir.
+
+Örnek:
+
+JavaScript
+function main() {
+  var name = "John Doe";
+  console.log(name); // John Doe
+
+  function inner() {
+    console.log(name); // John Doe
+  }
+
+  inner();
+}
+Kodu kullanırken dikkatli olun. Daha fazla bilgi
+Bu örnekte, main() fonksiyonunda name adında bir değişken var ile tanımlanmıştır. Bu değişkenin değeri, main() fonksiyonunun içinde ve inner() fonksiyonunun içinde erişilebilirdir.
+
+let
+
+let, JavaScript'te ES6 ile eklenen bir değişken tanımlama anahtar kelimesidir. let ile tanımlanan değişkenler, block scope özelliğine sahiptir. Bu, değişkenin tanımlandığı blok içinde ve blokun içinde çağrılan her yerde erişilebilir olduğu anlamına gelir. let ile tanımlanan değişkenlerin değerleri değiştirilebilirdir.
+
+Örnek:
+
+JavaScript
+let name = "John Doe";
+
+{
+  console.log(name); // John Doe
+
+  let name = "Jane Doe"; // Hata: name değişkeni zaten tanımlandı
+}
+
+console.log(name); // John Doe
+Kodu kullanırken dikkatli olun. Daha fazla bilgi
+Bu örnekte, name adında bir değişken let ile tanımlanmıştır. Bu değişkenin değeri, blokun içinde Jane Doe olarak değiştirilmeye çalışılmıştır. Ancak, let ile tanımlanan değişkenlerin değerleri değiştirilemez. Bu nedenle, bu kodda bir hata oluşur.
+
+const
+
+const, JavaScript'te ES6 ile eklenen bir değişken tanımlama anahtar kelimesidir. const ile tanımlanan değişkenler, block scope özelliğine sahiptir ve değerleri değiştirilemez.
+
+Örnek:
+
+JavaScript
+const name = "John Doe";
+
+{
+  console.log(name); // John Doe
+
+  const name = "Jane Doe"; // Hata: name değişkeni değiştirilemez
+}
+
+console.log(name); // John Doe
+Kodu kullanırken dikkatli olun. Daha fazla bilgi
+Bu örnekte, name adında bir değişken const ile tanımlanmıştır. Bu değişkenin değeri, blokun içinde Jane Doe olarak değiştirilmeye çalışılmıştır. Ancak, const ile tanımlanan değişkenlerin değerleri değiştirilemez. Bu nedenle, bu kodda bir hata oluşur.
+
+Sonuç olarak, var, let ve const anahtar kelimeleri, değişkenlerin kapsamı ve değiştirilebilirliği gibi bazı önemli farklılıklara sahiptir.
+
+Aşağıdaki tabloda, bu anahtar kelimelerin farklılıkları özetlenmiştir:
+
+Anahtar kelime	Kapsam	Değiştirilebilirlik
+var	Function scope	Değiştirilebilir
+let	Block scope	Değiştirilebilir
+const	Block scope	Değiştirilemez

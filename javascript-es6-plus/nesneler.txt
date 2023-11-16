@@ -1,0 +1,57 @@
+undefined
+var name =  "Deniz"
+undefined
+var kisi = {
+    ad : "Denizhan",
+    soyad : "Şahin"
+}
+undefined
+kisi.ad
+'Denizhan'
+kisi.soyad
+'Şahin'
+var kisi = {
+    ad : "Denizhan",
+    soyad : "Şahin",
+    yas : 33,
+    email : "example@example.com"
+}
+undefined
+kisi
+{ad: 'Denizhan', soyad: 'Şahin', yas: 33, email: 'example@example.com'}
+kisi.ad="Salih"
+'Salih'
+kisi
+{ad: 'Salih', soyad: 'Şahin', yas: 33, email: 'example@example.com'}
+var kisi = {
+    ad : "Denizhan",
+    soyad : "Şahin",
+    yas : 33,
+    email : "example@example.com",
+    arkadaslar : [1,2,3,4]
+}
+undefined
+kisi
+{ad: 'Denizhan', soyad: 'Şahin', yas: 33, email: 'example@example.com', arkadaslar: Array(4)}
+kisi.ar
+undefined
+kisi.arkadaslar
+(4) [1, 2, 3, 4]
+kisi.arkadaslar[2]
+3
+var kisi = {
+    ad : "Denizhan",
+    soyad : "Şahin",
+    yas : 33,
+    email : "example@example.com",
+    arkadaslar : [1,2,3,4],
+    selamVer : function(){console.log("Fonksiyon çalıştı")}
+}
+undefined
+kisi
+{ad: 'Denizhan', soyad: 'Şahin', yas: 33, email: 'example@example.com', arkadaslar: Array(4), …}
+kisi.selamVer()
+VM3483:7 Fonksiyon çalıştı
+undefined
+kisi.selamVer
+ƒ (){console.log("Fonksiyon çalıştı")}

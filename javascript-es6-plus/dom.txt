@@ -1,0 +1,13 @@
+kullanicilara göre html içeriklerini göster, document object model demektir
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <p id = "bio"></p>
+        <script src="dom.js"></script>
+    </body>
+</html>
+
+document.getElementById("bio").innerHTML="Denizhan ŞAhin" //ilgili id bilgisine sahip elemanı yakala
