@@ -44,4 +44,23 @@ includes - içerip içermediği,harf duyarlılığı var
 toLowerCase - hepsini küçük yap
 
 Dizilerde Map :
+callback uygular ve yeni bir dizi oluşturur.
 
+Dizilerde Filter :
+basit bir callback fonksiyonu
+
+Dizilerde Reduce : 
+Bir callback fonksiyonu, her bir döngüde çıkan sonuç önceki ile toplanır
+dört parametre alır, ama önce map dene , map buna göre daha iyi gibi 
+diziden veya değerden değer/dizi üret 
+
+Promises ve asybc-await: 
+Gelecekteki olumlu,olumsuz olabilen değerler içindir.
+Bir kaynağa bağlan , veri al ama ne olacak?
+Promises ilgili işlemi sonuçlanında çalışır, eş zamansız çalışır 
+olumsuz ise resolve, olumlu ise reject
+network gibi şeylerded varmış
+bir fonksiyonda await değişken için fonksiyonu async yap
+
+Diğer : npm install axios
+npm init -
