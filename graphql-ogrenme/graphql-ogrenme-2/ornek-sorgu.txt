@@ -1,0 +1,46 @@
+query Quey($id: ID!){
+  review(id: $id) {
+    rating
+    author {
+      id
+      name
+      verified
+      reviews {
+        author {
+          id
+        }
+      }
+    }
+    game {
+      id
+    }
+  }
+}
+
+
+
+
+mutation DeleteMutation($id:ID!){
+  deleteGame(id:$id){
+    id,
+    title
+    platform
+  }
+}
+
+
+mutation AddMutation($game:addGameInput!){
+  addGame(game:$game){
+    id,
+    title,
+    platform
+  }
+}
+
+
+{
+  "game":{
+    "title":"a new game",
+    "platform":["switch","ps5"]
+  }
+}

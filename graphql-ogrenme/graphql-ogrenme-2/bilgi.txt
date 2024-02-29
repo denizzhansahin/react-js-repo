@@ -1,0 +1,8 @@
+1520  npm init
+ 1521  npm install graphql --save
+ 1522  mkdir graphql-server-example
+ 1523  cd graphql-server-example
+ 1524  npm init -
+ 1525  npm init -y
+ 1526  npm pkg set type="module"
+ 1527  npm install @apollo/server graphql
